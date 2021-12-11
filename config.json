@@ -1,0 +1,9 @@
+{
+  "readingTimeoutMs": 2000,
+  "port": 8081,
+  "dhtPin": 18,
+  "offsets": {
+    "tempC" : -3,
+    "humidity": 0
+  }
+}

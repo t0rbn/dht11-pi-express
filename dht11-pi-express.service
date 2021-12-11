@@ -1,0 +1,12 @@
+[Unit]
+Description=dht11 pi express
+
+[Service]
+WorkingDirectory=/home/pi/dht11-pi-express
+ExecStart=/usr/bin/node /home/pi/dht11-pi-express/dht11-pi-express.js
+Type=simple
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

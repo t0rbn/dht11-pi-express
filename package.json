@@ -1,0 +1,16 @@
+{
+  "name": "dht11-pi-express",
+  "version": "0.0.1",
+  "description": "Expose readings of a dht11 sensor connected to a raspberry pi via http using express",
+  "main": "dht11-pi-express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "t0rbn",
+  "license": "MIT",
+  "dependencies": {
+    "node-dht-sensor": "latest",
+    "cors": "latest",
+    "express": "latest"
+  }
+}
